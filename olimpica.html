@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./olimpica.css">
+    <title>Olimpicas</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="modal">
+            <div class="tittle">
+                <h3>¿En qué cuidad estás?</h3>
+            </div>
+            <div>
+                <p> Recuerda que nuestros precios y cobertura de productos de supermercado varían según tu ubicación.</p>
+                <p> Para brindarte una mejor experiencia seleciona tu departamento y cuidad</p>
+            </div>
+                <div class="seleciones">
+                    <input placeholder="Dptos" list="Departamentos" class="Input">
+                    <datalist id="Departamentos">
+                        <option value="Atlantico"></option>
+                        <option value="Bolivar"></option>
+                        <option value="Sucre"></option>
+                    </datalist>
+                    <input placeholder="City" list="Ciudades" class="Input">
+                    <datalist id="Ciudades">
+                        <option value="Barranquilla"></option>
+                        <option value="Cartagena"></option>
+                        <option value="Sincelejo"></option>
+                    </datalist>
+                </div>
+                <div class="botonF">
+                    <button type="submit" class="boton">ELEGIR</button>
+                </div>
+        </div>
+    </div>
+</body>
+
+</html>
